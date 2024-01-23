@@ -4,8 +4,7 @@ import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 from pmt_gain_fitting.FitterClass.Toolkit import Params, adc_to_e
 from pmt_gain_fitting.FitterClass.trim_outliers import trim_percentile
-from pmt_gain_fitting.FitterClass_deprecated.EMG_Model_np import total_charge_yield, extended_normal, extended_en
-
+from pmt_gain_fitting.FitterClass.EMG_Model_np import total_charge_yield, extended_normal, extended_en
 
 
 """
